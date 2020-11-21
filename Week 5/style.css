@@ -1,0 +1,25 @@
+#mainBody{
+	text-align: center;
+	margin: auto;
+}
+
+.objectStats{
+	font-size: 40px;
+}
+
+.killText{
+	display: none;
+	font-size: 60;
+}
+
+body{
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/crossline-lines.png);
+}
+
+button{
+	font-size: 40px;
+}
+
+h1{
+	font-size: 60px;
+}

@@ -1,0 +1,45 @@
+<html>
+
+	<head>
+		<title>Me Object</title>
+	</head>
+	
+	<body>
+	
+	</body>
+	
+	<script>
+	
+	var me = {
+		family: {
+			guardians: [
+				{name: "Tammy", nickname: "Tam", age: 45} 
+			],
+			
+			siblings: [
+				{name: "Fawn", favorite: true, age: 50}
+			]
+		},			
+
+		pets: [
+			{name: "Sobe", species: "Boston Terrior", still_alive: false, nicknames: ["Sobe", "Dog", "Sobes"]}
+		],
+		
+		childhood: {
+			favorite_movie: "Harry Potter", favorite_food: "Ice-Cream"
+		},
+		
+		adulthood: {
+			favorite_movie: "Spider-Man", favorite_food: "Kit-Kat"
+		}
+	}
+	
+	
+	console.log(me.family.guardians[0].nickname);
+	console.log(me.pets[0].still_alive);
+	console.log(me.childhood.favorite_food);
+	console.log(me.adulthood.favorite_food);
+			
+	</script>
+	
+</html>
